@@ -1,0 +1,84 @@
+@keyframes upDown {
+    0% {transform: translateY(-10%)}
+    50% {transform: translateY(10%)}
+    100% {transform: translateY(-10%)}
+}
+@keyframes upDown2 {
+    0% {transform: translateY(10%)}
+    50% {transform: translateY(-10%)}
+    100% {transform: translateY(10%)}
+}
+@keyframes paddle {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes airplane {
+    0% {transform: rotateX(0deg) rotate(-5deg);}
+    50% {transform: rotateX(-20deg)rotate(2deg);}
+    100% {transform: rotateX(0deg)rotate(-5deg);}
+}
+@keyframes pilot {
+    0% {transform: translateY(-5%) rotate(-1deg); }
+    50% {transform: translateY(0%) rotate(0deg);}
+    100% {transform: translateY(-5%)rotate(-1deg);}
+}
+@keyframes line1 {
+    0% {transform: rotate(30deg)}
+    50% {transform: rotate(20deg)}
+    100% {transform: rotate(30deg)}
+}
+@keyframes line2 {
+    0% {transform: rotate(-35deg)}
+    50% {transform: rotate(-40deg)}
+    100% {transform: rotate(-35deg)}
+}
+@keyframes fadein {
+    0% {transform: translateX(-200%);}
+    80% {transform: translateX(10%);}
+    100% {transform: translateX(0%);}
+}
+@keyframes BGcircle {
+    0% {transform: rotate(50deg)}
+    100% {transform: rotate(-310deg)}
+}
+@keyframes BGfadeIN {
+    0% {transform: translate(-50%,90%)scale(0)}
+    50% {transform: translate(-50%,90%)scale(0)}
+    100% {transform: translate(-50%,90%)scale(1)}
+}
+@keyframes BGfadeIN2 {
+    0% {transform: translate(-50%,70%)scale(0)}
+    50% {transform: translate(-50%,70%)scale(0)}
+    100% {transform: translate(-50%,70%)scale(1)}
+}
+@keyframes cloud1 {
+    0% {transform: translate(0%,0%)}
+    50% {transform: translate(10%,10%)}
+    100% {transform: translate(0%,0%)}
+}
+@keyframes cloud2 {
+    0% {transform: translate(0%,0%)}
+    50% {transform: translate(-10%,-10%)}
+    100% {transform: translate(0%,0%)}
+}
+@keyframes cloud3 {
+    0% {transform: translateX(0%)}
+    50% {transform: translateX(20%)}
+    100% {transform: translateX(0%)}
+}
+@keyframes cloud4 {
+    0% {transform: translateX(0%)}
+    50% {transform: translateX(-20%)}
+    100% {transform: translateX(0%)}
+}
+@keyframes oops {
+    0% {transform: translateX(-50%) translateY(-100%);}
+    20% {transform: translateX(-50%) translateY(0%);}
+    50% {transform: translateX(-50%) translateY(-20%);}
+    60% {transform: translateX(-50%)translateY(0%);}
+    70% {transform: translateX(-50%) translateY(-10%);}
+    100% {transform: translateX(-50%) translateY(0%);}
+}
+
+// change to day
